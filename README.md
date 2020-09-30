@@ -14,7 +14,7 @@ available in [the `Buckler-project` repository on Kumina's GitHub](https://githu
 
 Buckler provides a view that serves as the main entry point for accessing
 Kibana.  All requests are forwarded to either Kibana or directly to
-Elasticsearch (in cases where Kibana will not properly handle the request, e.g.
+Elasticsearch (in cases where Kibana will properly handle the request, e.g.
 when access configuration indexes).
 
 Buckler provides a very simple authentication mechanism. It does not define any
